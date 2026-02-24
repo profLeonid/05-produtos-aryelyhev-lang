@@ -12,11 +12,15 @@
 
 <body class="bg-gray-400 flex flex-col items-center justify-center gap-4 h-screen">
     <h1 class="text-2xt">Lista de produtos</h1>
+    <h1 class="text-2xt">Digite o produto</h1>
     <!--border rounded é para arredondar as bordas-->
     <!--px-8 é o padding do conteiner em largura-->
     <!--py-7 é o padding do conteiner em altura-->
     <input type="text" class="border rounded px-8 py-2" id="produto">
-    <button class="bg-blue-500 text-white px-4 py-2 rounded" onclick="adicionarProduto()">
+    <input type="text" class="border rounded px-8 py-2" id="codigo">
+    <input type="text" class="border rounded px-8 py-2" id="quantia">
+    <button class="bg-blue-500 text-white px-4 py-2 rounded" 
+    onclick="adicionarProduto(), adicionarCodigo(), adicionarQuantidade()">
         adicionar
     </button>
 
