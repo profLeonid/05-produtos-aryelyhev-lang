@@ -33,3 +33,5 @@ function adicionarProduto(){
     codigo.value = ''
     quantia.value = ''
 }
+
+
